@@ -1,0 +1,5 @@
+export { About } from "@/pages/About"
+export { AuthLayout } from "@/pages/Auth/AuthLayout"
+export { Login } from "@/pages/Auth/Login"
+export { Register } from "@/pages/Auth/Register"
+export { Home } from "@/pages/Home"

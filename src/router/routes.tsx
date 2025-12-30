@@ -1,9 +1,5 @@
 import App from "@/App"
-import About from "@/pages/About"
-import AuthLayout from "@/pages/Auth/AuthLayout"
-import Login from "@/pages/Auth/Login"
-import Home from "@/pages/Home"
-import Register from "@/pages/Auth/Register"
+import { About, AuthLayout, Login, Home, Register } from "@/pages"
 import { Button, Result } from "antd"
 import type { RouteObject } from "react-router"
 

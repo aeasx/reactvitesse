@@ -2,7 +2,7 @@ import { Icon } from "@iconify/react"
 import { useBoolean } from "ahooks";
 import type { FC } from "react"
 
-const Home: FC = () => {
+export const Home: FC = () => {
   const [value, toggle] = useBoolean(false);
   return (
     <div className="w-[300px] h-[200px] m-auto text-3xl flex flex-col items-center">
@@ -12,5 +12,3 @@ const Home: FC = () => {
     </div>
   )
 }
-
-export default Home

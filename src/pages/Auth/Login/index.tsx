@@ -1,6 +1,6 @@
 import { Form, Input } from "antd"
 
-const Login = () => {
+export const Login = () => {
   const [form] = Form.useForm()
 
   return (
@@ -17,5 +17,3 @@ const Login = () => {
     </div>
   )
 }
-
-export default Login
