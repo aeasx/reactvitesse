@@ -1,10 +1,11 @@
-import { GridLayout } from "@/components/GridLayout";
+import { Icon } from "@iconify/react"
+
 function App() {
   return (
-    <>
-      <h1 className='text-2xl font-bold text-red-600'>react-ts-template</h1>
-      <GridLayout />
-    </>
+    <div className="w-[300px] h-[200px] m-auto text-3xl flex flex-col items-center">
+      <h1 className='text-red-600'>react-ts-template</h1>
+      <Icon icon="mdi:home" width="48" height="48" color="red" />
+    </div>
   )
 }
 
